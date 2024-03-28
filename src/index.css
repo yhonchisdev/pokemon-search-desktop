@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="range"]::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    cursor: ew-resize;
+    background: #eab308;
+    box-shadow: -405px 0 0 400px black;
+    border-radius: 50%;
+  }
+}
